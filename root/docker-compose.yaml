@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+    nacho:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: christiangroeber/portfolio
+        ports:
+            - '93:80'
+        volumes: 
+            - ./:/var/www/html
