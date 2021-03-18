@@ -3,7 +3,7 @@
 echo "Project Name"
 read projectName
 
-cp -r ./skeletonacho/root $projectName
+cp -r ./nacho-skeleton/root $projectName
 
 cd $projectName
 
